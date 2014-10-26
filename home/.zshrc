@@ -45,7 +45,7 @@ ZSH_THEME="clement"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoenv brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant)
+plugins=(autoenv brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant z)
 
 source $ZSH/oh-my-zsh.sh
 
