@@ -11,7 +11,7 @@ ZSH_THEME="clement"
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -51,7 +51,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/opt/local/bin:/opt/local/sbin:/Users/clement/.aws/AS/bin:/Users/clement/.aws/RDS/bin:/Users/clement/.terraform/bin:/Users/clement/.aws/EC2/bin:/Users/clement/.rbenv/shims:/Users/clement/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Users/clement/Documents/go/bin:/usr/local/Cellar/go/1.3.3/libexec/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -74,6 +73,3 @@ export PATH="/opt/local/bin:/opt/local/sbin:/Users/clement/.aws/AS/bin:/Users/cl
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-
-# kind of a bug, don't know
-eval "$(rbenv init - zsh)"
