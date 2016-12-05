@@ -5,7 +5,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+
 ZSH_THEME="clement"
+#ZSH_THEME="honukai"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,8 +47,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-#plugins=(autoenv brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant z)
-plugins=(brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant z)
+plugins=(autoenv brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -75,5 +76,5 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# syntax highlighting
-source /Users/clement/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# syntax highlighting (slow large input, disabled)
+#source /Users/clement/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
