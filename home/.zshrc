@@ -47,7 +47,8 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autoenv brew brew-cast bundler clement-git docker gem git git-extras go golang npm pow rake rbenv ruby vagrant z)
+#plugins=(autoenv clement-git git git-extras go golang rbenv z)
+plugins=(autoenv git-prompt git git-extras go golang rbenv z)
 
 source $ZSH/oh-my-zsh.sh
 
