@@ -48,7 +48,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(autoenv clement-git git git-extras go golang rbenv z)
-plugins=(autoenv git-prompt git git-extras go golang rbenv z)
+plugins=(autoenv git-prompt git git-extras go golang rbenv z kube-ps1)
 
 source $ZSH/oh-my-zsh.sh
 
